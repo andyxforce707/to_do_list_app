@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do list App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container" class="universe">
+      <h2 class="title">To Do List APP</h2>
+      <span>by <a href="https://instagram.com/andyxforce">andy</a></span>
+      <div class="form">
+        <input type="text" placeholder="Masukkan rencana ..." maxlength="45" />
+        <button type="submit" onclick="addTask();" title="add task">+</button>
+      </div>
+      <div class="result"></div>
+      <div class="list">
+        <ol></ol>
+      </div>
+
+      <!-- DOM Manipulation -->
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="sidebar">
+        <ul>
+          <span class="close">close</span>
+          <h3>Options</h3>
+
+          <li><a href="https://andyxforce707.github.io/my_portfolio/portfolio/portfolio.html">My project</a></li>
+          <li><a href="https://instagram.com/andyxforce">Follow me on Instagram</a></li>
+          <li>App Version: 1.01</li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
